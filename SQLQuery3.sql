@@ -1,0 +1,1 @@
+﻿Insert into Registration values('Admin','admin@gmail.com','admin',30/1/2020,14);

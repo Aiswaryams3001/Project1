@@ -1,0 +1,1 @@
+﻿select c.queryid, p.productid,p.productname,u.name, c.query, c.reply from product p  INNER JOIN query c  ON p.productid = c.productid INNER JOIN Registration u ON u.userid = c.userid AND c.userid ='" + obj.userid + "';

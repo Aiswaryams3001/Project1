@@ -1,0 +1,39 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Admin.master.cs" Inherits="Project1.Admin.Admin" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <link href="css/1.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+   
+        <div class="wrapper">
+            <div class="menu">
+                <ul>
+                    <li><a href="Default.aspx">Home</a></li>
+                    <li><a href="Confirmuser.aspx">Confirm User</a></li>
+                    <li><a href="product.aspx">Product Details</a></li>
+                    <li><a href="viewcomplaint.aspx">View Complaint</a></li>
+                    <li><a href="viewquery.aspx">View Query</a></li>
+                    <li><a href="../GuestMaster/Default.aspx">Log Out</a></li>
+                 </ul>
+            </div>
+        </div>
+        <div>
+            <div class="clear"></div>
+            <div class="content">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+            <div class="clear"></div>
+            <div class="footer">
+                <h2>Copyright © 2022 NeST Learning. All Rights Reserved.</h2>
+            </div>
+        </div>
+   
+</body>
+</html>
