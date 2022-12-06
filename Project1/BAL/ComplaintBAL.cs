@@ -98,6 +98,11 @@ namespace Project1.BAL
         {
             return objprdtdl.view_complaints(this);
         }
+        public DataTable userViewComplaint()
+        {
+            return objprdtdl.user_view_complaints(this);
+        }
+
 
         public DataTable ProductValues()
         {

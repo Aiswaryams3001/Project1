@@ -17,6 +17,7 @@
                     <li><a href="User.aspx">Home</a></li>
                     <li><a href="Complaint.aspx">Complaint Registration</a></li>
                     <li><a href="query.aspx">Query Registration</a></li>
+                    <li><a href="viewcomplaintSts.aspx">View Complaint Status</a></li>
                     <li><a href="viewreply.aspx">View Reply</a></li>
                     <li><a href="../GuestMaster/Default.aspx">Log Out</a></li>
                 </ul>

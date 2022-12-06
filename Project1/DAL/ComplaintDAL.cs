@@ -76,5 +76,16 @@ namespace Project1.DAL
             SqlCommand cmd = new SqlCommand(s, Getcon());
             return cmd.ExecuteNonQuery();
         }
+        public DataTable user_view_complaints(BAL.ComplaintBAL obj)
+        {
+            string qry = "select  c.date,p.productname,u.userid,u.name,c.complaint, c.status from product p  INNER JOIN Complaint c  ON p.productid = c.productid INNER JOIN Registration u ON u.userid = c.userid AND c.userid ='" + obj.userid + "'";
+
+            SqlCommand cmd = new SqlCommand(qry, Getcon());
+            SqlDataAdapter da = new SqlDataAdapter(cmd);
+            DataTable dt = new DataTable();
+            da.Fill(dt);
+            return dt;
+
+        }
     }
 }

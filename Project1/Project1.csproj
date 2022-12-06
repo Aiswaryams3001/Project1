@@ -84,6 +84,7 @@
     <Content Include="User\query.aspx" />
     <Content Include="User\Registration.aspx" />
     <Content Include="User\User.aspx" />
+    <Content Include="User\viewcomplaintSts.aspx" />
     <Content Include="User\viewreply.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -208,6 +209,13 @@
     </Compile>
     <Compile Include="User\UserMaster.Master.designer.cs">
       <DependentUpon>UserMaster.Master</DependentUpon>
+    </Compile>
+    <Compile Include="User\viewcomplaintSts.aspx.cs">
+      <DependentUpon>viewcomplaintSts.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User\viewcomplaintSts.aspx.designer.cs">
+      <DependentUpon>viewcomplaintSts.aspx</DependentUpon>
     </Compile>
     <Compile Include="User\viewreply.aspx.cs">
       <DependentUpon>viewreply.aspx</DependentUpon>

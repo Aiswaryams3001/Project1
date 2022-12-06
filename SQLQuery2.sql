@@ -1,0 +1,1 @@
+﻿select s.*,l.* from Registration s inner join login l on s.lid=l.lid  WHERE username='"+obj.User_username+"' AND password='"+obj.userpassword+"';
